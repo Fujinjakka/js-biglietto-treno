@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("img/treno.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#container_main {
+  display: flex;
+  height: 60%;
+  width: 100%;
+}
+#head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  width: 100%;
+}
+#head h1 {
+  color: white;
+  background-color: grey;
+  font-size: 80px;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+}
+#main button {
+  height: 200px;
+  width: 400px;
+  color: red;
+  background-color: yellow;
+  font-size: 20px;
+}
+#main p {
+  height: 200px;
+  width: 400px;
+  color: red;
+  background-color: yellow;
+  text-align: center;
+  line-height: 200px;
+}
+#aside {
+  height: 100%;
+  width: 20%;
+}
+#aside h2 {
+  margin: 20px;
+  font-size: 20px;
+}
